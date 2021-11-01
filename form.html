@@ -1,0 +1,54 @@
+<html lang="eng">
+    <head>
+        <meta charset="utf-8">
+        <title>MyTube &#9829;</title>
+    </head>
+
+    <body>
+       <nav>
+           <a href="index.html">Home</a>
+           <a href="collection1.html">Collection 1</a>
+           <a href="collection2.html">Collection 2</a>
+           <a href="collection3.html">Collection 3</a>
+           <a href="form.html">New Video</a>
+       </nav> 
+
+       <header>
+           <h1>Add New Video</h1>
+        </header>
+
+        <label for="videoTitle">Video Title</label><br>
+        <input type="text" name="videoTitle" id="videoTitle">
+
+        <br><br>
+
+        <label for="description">Description</label><br>
+        <textarea name="description" id="description" cols="30" rows="10" maxlength="300"></textarea>
+
+        <br><br>
+
+        <label for="video">Video</label><br>
+        <input type="file" name="video" id="video">
+
+        <br><br>
+
+        <select name="chooseCollection" id="chooseCollection">
+            <option value="choose-collection" selected>Choose Collection</option>
+            <option value="collection-1">Collection 1</option>
+            <option value="collection-2">Collection 2</option>
+            <option value="collection-3">Collection 3</option>
+        </select>
+
+        <br><br>
+
+        <input type="radio" id="public" name="privacy">
+        <label for="public">Public</label>
+        <input type="radio" id="private" name="privacy">
+        <label for="private">Private</label>
+        
+        <br><br><br><br>
+
+        <button type="submit">Upload Video</button>
+    </body>
+
+</html>
